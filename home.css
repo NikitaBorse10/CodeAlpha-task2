@@ -1,0 +1,109 @@
+/* Reset some default styles for consistency */
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  /* Set a max-width to limit the content width on larger screens */
+  body {
+ 
+    height: 100vh;
+    margin: 0 auto;
+    
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #555;
+    display: flex;
+    
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Style the main content section */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style the hero section */
+  .hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #c52626;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the featured products section */
+  .featured-products {
+    margin-top: 40px;
+  }
+  
+  .featured-products h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .product {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .product img {
+    max-width: 100%;
+  }
+  
+  .product h4 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    font-size: 16px;
+    color: #b42727;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  

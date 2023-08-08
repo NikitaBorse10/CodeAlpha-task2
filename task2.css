@@ -1,0 +1,80 @@
+/* Reset some default styles for consistency */
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  
+  nav {
+    background-color: #c77e7e;
+    display: flex;
+    justify-content: left;
+    padding: 10px;;
+  }
+  
+  nav ul {
+    list-style:upper-latin;
+    margin-left: 70px;
+  }
+  nav h2{
+    float: left;
+    color: white;
+    margin: 10px 10px;
+  }
+  nav li {
+    display: inline-block;
+    margin: 10px 10px;
+    font-size: 20px;
+    
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Style the main content section */
+  main {
+    padding: 20px;
+    height: 90vh;
+    background-color:rgb(143, 120, 120);
+  }
+  section{
+    color:aliceblue;
+    text-align:justify;
+    width: 50%;
+    
+  }
+  
+  section h2{
+ 
+    margin: 30px;
+    font-size: 30px;
+    font-family: cursive;
+    
+  }
+  section p{
+   
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-weight: lighter;
+  font-family:cursive;
+  }
+  main .imgs{
+    float:right;
+    height: 50vh;
+    width: 70vh;
+    margin-right: 130px;
+    margin-top: 100px;
+  }
+  /* Style the footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+ 

@@ -1,0 +1,78 @@
+/* Reset some default styles for consistency */
+* { margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #c77e7e;
+  display: flex;
+  justify-content: left;
+  padding: 10px;;
+}
+
+nav ul {
+  list-style:upper-latin;
+  margin-left: 70px;
+}
+nav h2{
+  float: left;
+  color: white;
+  margin: 10px 10px;
+}
+nav li {
+  display: inline-block;
+  margin: 10px 10px;
+  font-size: 20px;
+  
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Style the main content section */
+main {
+  padding: 20px;
+  height: 90vh;
+  background-image:
+  linear-gradient(45deg,
+    rgba(236, 104, 102, 0.75),
+    rgba(6, 44, 81, 0.75)), url(
+'../imgs/photo-1612817288484-6f916006741a.avif');
+ 
+  text-align: center;
+    color: #fff;
+  /* background-color:rgb(143, 120, 120); */
+}
+section{
+  color:aliceblue;
+  text-align: center;
+  
+}
+section h2{
+
+  margin: 10px;
+  font-size: 30px;
+  font-family: cursive;
+  
+}
+section p{
+ 
+font-size: 20px;
+margin-left: 300px;
+margin-right: 300px;
+font-weight: lighter;
+font-family:cursive;
+}
+/* Style the footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
